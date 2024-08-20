@@ -1,0 +1,24 @@
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #698474;
+        }
+
+        canvas {
+            border: 5px solid red;
+            /* box-shadow: 8px 8px 10px 10px red; */
+            background-color: #fff;
+        }
+
+        .score {
+            position: absolute;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 24px;
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
